@@ -13,28 +13,26 @@ body {
 
 .navbar {
     /* border: 1px solid red; */
+    /* background-color: yellow; */
     width: 90%;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand img {
-    border: none;
-    border-radius: 25px;
-    width: 45px;
-    height: 45px;
-    background-color: #012727;
+    width: 50px;
+    height: 50px;
 }
 
 .rightnav {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin-top: 17px;
 }
 
 .nav-item a {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: #003434;
 }
 
@@ -79,8 +77,8 @@ body {
 
 @media screen and (max-width: 1199px) {
     .navbar-brand img {
-        width: 43px;
-        height: 43px;
+        width: 42px;
+        height: 42px;
     }
 
     .navbtn,
@@ -101,7 +99,7 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .navbar {
         display: flex;
         place-content: center !important;
@@ -233,6 +231,10 @@ body {
     #cursor {
         width: 7px;
         height: 40px;
+    }
+
+    .headercontainer {
+        padding-top: 0px;
     }
 }
 
@@ -1055,6 +1057,7 @@ body {
     color: white;
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
     padding: 10px 20px;
 }
 
@@ -1137,11 +1140,7 @@ footer {
 .footericon {
     width: 20px;
     height: 20px;
-}
-
-.footericonup {
-    width: 20px;
-    height: 20px;
+    cursor: pointer;
 }
 
 footer .firstfooter:nth-child(1) {
